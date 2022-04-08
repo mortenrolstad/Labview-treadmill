@@ -71,8 +71,8 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="libRealSense3.lvlib" Type="Library" URL="../libRealSense3.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../lvanlys.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../lvanlys.dll"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -80,7 +80,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="realsense2 - 32.dll" Type="Document" URL="../realsense2 - 32.dll"/>
-			<Item Name="realsense2.dll" Type="Document" URL="../../../Intel RealSense SDK 2.0/bin/x86/realsense2.dll"/>
 			<Item Name="realsense2.dll" Type="Document" URL="../realsense2.dll"/>
 			<Item Name="realsense2ex.dll" Type="Document" URL="../realsense2ex.dll"/>
 		</Item>
