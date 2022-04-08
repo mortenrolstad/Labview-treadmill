@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="kameravariabler.vi" Type="VI" URL="../Bachelor 2022/sensorer sub vi/kameravariabler.vi"/>
 		<Item Name="nydybde.vi" Type="VI" URL="../nydybde.vi"/>
 		<Item Name="RealSense_HelloWorld_PointCloud_ext_RGB2.vi" Type="VI" URL="../RealSense_HelloWorld_PointCloud_ext_RGB2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -308,6 +309,7 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Calibrering.vi" Type="VI" URL="../Bachelor 2022/Calibrering.vi"/>
+			<Item Name="kameravariabler.vi" Type="VI" URL="../Bachelor 2022/sensorer sub vi/kameravariabler.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
