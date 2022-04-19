@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{71280FCF-138A-42EE-8EF5-B71978C0C376}" Type="Ref">/My Computer/test.lvlib/test1</Property>
+	<Property Name="varPersistentID:{7E53E232-44B4-4A3B-B803-19397270BD03}" Type="Ref">/NI-myRIO-1900-03192741/Untitled Library 2.lvlib/Pos Torso</Property>
 	<Property Name="varPersistentID:{C63C39F0-6484-4F64-89E6-AA01A6D81D66}" Type="Ref">/NI-myRIO-1900-03192741/kalibrering Library 2.lvlib/Variable2</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,6 +16,7 @@
 		<Item Name="kameravariabler.vi" Type="VI" URL="../Bachelor 2022/sensorer sub vi/kameravariabler.vi"/>
 		<Item Name="nydybde.vi" Type="VI" URL="../nydybde.vi"/>
 		<Item Name="RealSense_HelloWorld_PointCloud_ext_RGB2.vi" Type="VI" URL="../RealSense_HelloWorld_PointCloud_ext_RGB2.vi"/>
+		<Item Name="test.lvlib" Type="Library" URL="../Bachelor 2022/sensorer sub vi/test.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
@@ -170,6 +173,7 @@ AddOutputFilter chunkFilter
 		<Item Name="pulsteller.vi" Type="VI" URL="../Bachelor 2022/pulsteller.vi"/>
 		<Item Name="samletrev1.vi" Type="VI" URL="../Bachelor 2022/samletrev1.vi"/>
 		<Item Name="Sensorer_Cop.vi" Type="VI" URL="../Bachelor 2022/Sensorer_Cop.vi"/>
+		<Item Name="Untitled Library 2.lvlib" Type="Library" URL="../Bachelor 2022/sensorer sub vi/Untitled Library 2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
@@ -309,7 +313,6 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Calibrering.vi" Type="VI" URL="../Bachelor 2022/Calibrering.vi"/>
-			<Item Name="kameravariabler.vi" Type="VI" URL="../Bachelor 2022/sensorer sub vi/kameravariabler.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
