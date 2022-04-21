@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="varPersistentID:{3A679CED-AE69-453A-B4C1-904AE4117674}" Type="Ref">/NI-myRIO-1900-03192741/Pos torso.lvlib/Pos body</Property>
+	<Property Name="varPersistentID:{F0BA3C4B-26B7-496A-9F78-7572918D9C3B}" Type="Ref">/NI-myRIO-1900-03192741/vel body.lvlib/Vel body</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -169,6 +170,7 @@ AddOutputFilter chunkFilter
 		<Item Name="pulsteller.vi" Type="VI" URL="../Bachelor 2022/pulsteller.vi"/>
 		<Item Name="samletrev1.vi" Type="VI" URL="../Bachelor 2022/samletrev1.vi"/>
 		<Item Name="Sensorer_Cop.vi" Type="VI" URL="../Bachelor 2022/Sensorer_Cop.vi"/>
+		<Item Name="vel body.lvlib" Type="Library" URL="../Bachelor 2022/sensorer sub vi/vel body.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
