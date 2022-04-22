@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="varPersistentID:{3A679CED-AE69-453A-B4C1-904AE4117674}" Type="Ref">/NI-myRIO-1900-03192741/Pos torso.lvlib/Pos body</Property>
+	<Property Name="varPersistentID:{89FC3107-EFBA-4EFA-83C9-4DD48E4AC3CA}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/LeftCOP</Property>
+	<Property Name="varPersistentID:{C799E612-A99B-4ABF-AECC-1D7D06472840}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/RightCOP</Property>
 	<Property Name="varPersistentID:{F0BA3C4B-26B7-496A-9F78-7572918D9C3B}" Type="Ref">/NI-myRIO-1900-03192741/vel body.lvlib/Vel body</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="nydybde.vi" Type="VI" URL="../nydybde.vi"/>
+		<Item Name="Plots.vi" Type="VI" URL="../Plots.vi"/>
 		<Item Name="RealSense_HelloWorld_PointCloud_ext_RGB2.vi" Type="VI" URL="../RealSense_HelloWorld_PointCloud_ext_RGB2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -165,6 +168,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="COP.lvlib" Type="Library" URL="../COP.lvlib"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Bachelor 2022/Motors.vi"/>
 		<Item Name="Pos torso.lvlib" Type="Library" URL="../Bachelor 2022/sensorer sub vi/Pos torso.lvlib"/>
 		<Item Name="pulsteller.vi" Type="VI" URL="../Bachelor 2022/pulsteller.vi"/>
