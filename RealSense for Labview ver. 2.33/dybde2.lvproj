@@ -1,8 +1,18 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{111956D0-61E8-4115-BC5A-FBF851A288C9}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/Loadcells1</Property>
 	<Property Name="varPersistentID:{3A679CED-AE69-453A-B4C1-904AE4117674}" Type="Ref">/NI-myRIO-1900-03192741/Pos torso.lvlib/Pos body</Property>
+	<Property Name="varPersistentID:{415196A5-8BEB-4A82-B92B-7F97B6D49A51}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/loadcells4</Property>
+	<Property Name="varPersistentID:{717784CB-679D-483D-9BAE-60EBBCE3AA4D}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/loadcells6</Property>
+	<Property Name="varPersistentID:{77598B51-24D6-4911-88DC-4FCC712323A0}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/Loadcells3</Property>
+	<Property Name="varPersistentID:{77F2782E-5400-431E-B9DB-ADBB3731CF16}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/loadcells5</Property>
+	<Property Name="varPersistentID:{7D557AED-D08F-4848-B761-5444305AACA9}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/LeftYCOP</Property>
+	<Property Name="varPersistentID:{88CA5FCB-72DE-4274-A778-23B8DA6A11DD}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/loadcells8</Property>
 	<Property Name="varPersistentID:{89FC3107-EFBA-4EFA-83C9-4DD48E4AC3CA}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/LeftCOP</Property>
 	<Property Name="varPersistentID:{C799E612-A99B-4ABF-AECC-1D7D06472840}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/RightCOP</Property>
+	<Property Name="varPersistentID:{CF67C564-7D97-43A4-B4F7-04DDA8445A09}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/Loadcells2</Property>
+	<Property Name="varPersistentID:{E50BE72B-5F53-45D3-93F7-B38A0982AF33}" Type="Ref">/NI-myRIO-1900-03192741/loadcelllib.lvlib/loadcells7</Property>
+	<Property Name="varPersistentID:{EF4AB9CB-5484-4867-8321-73177308FD96}" Type="Ref">/NI-myRIO-1900-03192741/COP.lvlib/RightYCOP</Property>
 	<Property Name="varPersistentID:{F0BA3C4B-26B7-496A-9F78-7572918D9C3B}" Type="Ref">/NI-myRIO-1900-03192741/vel body.lvlib/Vel body</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -169,6 +179,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="COP.lvlib" Type="Library" URL="../COP.lvlib"/>
+		<Item Name="loadcelllib.lvlib" Type="Library" URL="../loadcelllib.lvlib"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Bachelor 2022/Motors.vi"/>
 		<Item Name="Pos torso.lvlib" Type="Library" URL="../Bachelor 2022/sensorer sub vi/Pos torso.lvlib"/>
 		<Item Name="pulsteller.vi" Type="VI" URL="../Bachelor 2022/pulsteller.vi"/>
